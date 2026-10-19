@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporales de Office
+~$*
+
+# Datos y resultados generados (se conserva la estructura con .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep
